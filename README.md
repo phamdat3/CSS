@@ -6,28 +6,22 @@
 
 # Mục lục 
 
-<a href="#1">1.Github</a>
-  <ul>
-    <li><a href="#Nội dung1">Nội dung</a></li>
-    <li><a href="#Công dụng1">Công dụng</a></li>
-  </ul>
-<a href="#repository1">2.Tạo repository đặt tên là `Web_dev`</a> 
-<a href="#Markdown">3.Markdown</a> 
-  <ul>
-   <li><a href="#Nội dung2">Nội dung</a></li>
-   <li><a href="#Công dụng2">Công dụng</a></li>
-  </ul>
-<a href="#cu phap">4.Cú pháp thường gặp</a> 
-<a href="#cài đặt">5.Cài đặt Sublime text</a> 
-<a href="#cong cu">6.Các công cụ viết Markdown khác</a>
-  <ul>
-    <li><a href="#1">Stackedit</a></li>
-    <li><a href="#2">Jbt</a></li>
-    <li><a href="#3">Tablesgenerator</a></li>
-  </ul>
+<a href="#1">1. CSS là gì?</a>
+<a href="#2">2. Nhúng css vào website.</a>
+<a href="#3">3. Vùng chọn và các kiểu vùng chọn.</a>
+<a href="#4">4. Các đơn vị đo lường</a>
+<a href="#5">5. Các thuộc tính trang trí văn bản</a>
+<a href="#6">6. Các thuộc tính trang trí chữ viết</a>
+<a href="#7">7. Phần tử Block và Inline</a>
+<a href="#8">8. Thẻ div và vai trò khi tạo bố cục</a>
+<a href="#9">9. Kỹ thuật Box Model cơ bản</a>
+<a href="#10">10. Tùy chỉnh kích thước box (block)</a>
+<a href="#11">11. Tính toán lại kích thước của box với box-sizing.</a>
+<a href="#12">12. Thêm nền cho block</a>
 
 # Nội dung.
 ---
+<id="1>
 ##1. CSS là gì?.
   - là chữ viết tắt của **Cascading Style Sheets**
   - là ngôn ngữ định dạng cho các ngôn ngữ đánh dấu siêu vă bản như HTML, XML, SVG...
@@ -41,7 +35,9 @@
    thuộc tính: giá trị;
    ...
  }
- ```
+ ``` 
+
+<id="2>
 ##2. Nhúng css vào website.
   - Theo kiểu **Inline style**: Chèn trực tiếp vào HTML luôn.
     + Cách chèn
@@ -58,6 +54,7 @@
         `<link rel="stylesheet" href="tên_file.css"/>`
       Tạo 1 tệp tin có tên là `tên_file.css`. nếu khác hu mục thì phải viết cả tên thư mục cách nhau bởi dấu `/`
 
+<id="3>
 ##3. Vùng chọn và các kiểu vùng chọn.
 
   - Vùng chọn là một khu vục trong website được chỉ định áp dụng một đoạn CSS  nào đó.
@@ -74,6 +71,7 @@
     + Chọn thứ cấp liền nhau
         - bên HTML viết những đoạn danh sách lồng nhau, bên CSS: `#id_me ul ul > p{...}` sẽ chọn dững phần tử ngay sau phần phần nhỏ thứ 2, có dấu `>` nên sẽ không chọn những phần nhỏ thứ 3,4...
 
+<id="4>
 ##4. Các đơn vị đo lường
 
   - Đơn vị tuyệt đối
@@ -90,6 +88,7 @@
 
      **rem** :Dùng trong toàn bộ, mà nó căn cứ vào phần tử gốc html.
 
+<id="5>
 ##5. Các thuộc tính trang trí văn bản
 
  - **text-align**: Căn lề văn bản(left-trái/right-phải/center-giữa/justify-đều 2 bên)
@@ -98,6 +97,7 @@
  - **text-shadow**: mau_sắc tọa_độ_x(px) tọa_đọ_y(px) kíck_thước_bóng_mờ(px) đổ bóng văn bản
  - **text-transform**: capitalize(hoa chữ đầu)/uppercase(hoa hết)/lomercase(thường hết)/normal(trở về)
 
+<id="6>
 ##6. Các thuộc tính trang trí chữ viết
 
  - **font-family**: Arial, Tahoma, sans-serif; tên font chữ
@@ -105,16 +105,19 @@
  - **font-weight**: 100/20..(cao nhất là 900)/normal(bt)tùy trỉnh độ đậm nhạt
  - **Color**: tên màu chữ
 
+<id="7>
 ##7. Phần tử Block và Inline
 
  - **Block**(khối) là phần tử HTML khi tạo ra nó sở hữu một hàng riêng biệt.vd `<div>,<h1>,<p>,<ul>...`
  - **Inline**(nội dung) là cá phần tử HTML khi tọa ra có thể đứng trên cùng một hàng.vd `<stong>,<span>,<a>...`
 
+<id="8>
 ##8. Thẻ **div** và vai trò khi tạo bố cục
 
  - Thẻ `<div>` là một thẻ block dùng để gọp nhiều nhóm phần tử lại thành một khu vực.Thườngđược dùng đẻ tạo bố cục hoặc tạ một khu vực nào đó trong website 
  - ví dụ: `<div id="..">....</div>`
 
+<id="9>
 ##9. Kỹ thuật Box Model cơ bản
 
  - Box model là kỹ thuật để tinh chỉnh lại các phần tử box(block)
@@ -129,6 +132,7 @@
    *các loại viền*: double/solid/dotted/groove/inset/outset...
   **padding**:(giống margin)
 
+<id="10>
 ##10. Tùy chỉnh kích thước box (block)
 
  - **max-height**: cao_tối_đa(px);
@@ -136,6 +140,7 @@
  - **max-width**: rộng_tối_đa;
  - **min-width**: hẹp_tối_đa;
 
+<id="11>
 ##11. Tính toán lại kích thước của box với box-sizing.
 
  - khi dùng thì tổng chu vi của **box** không đổi
@@ -149,6 +154,7 @@
    }
 ```
 
+<id="12>
 ##12. Thêm nền cho block
 
  - Màu nền
