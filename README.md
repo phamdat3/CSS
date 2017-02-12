@@ -79,24 +79,32 @@
      **%** :Dùng trong các phần tử con
      **em** :Dùng trong các phần tử con
      **rem** :Dùng trong toàn bộ, mà nó căn cứ vào phần tử gốc html.
+
 ##5. Các thuộc tính trang trí văn bản
+
  - **text-align**: Căn lề văn bản(left-trái/right-phải/center-giữa/justify-đều 2 bên)
  - **text-decoration**: thêm gạch(underline-dưới/overline-trên/line-throught-giữa/none-không trang trí theo kiểu này nữa) 
  - **text-indent**: (px) tạo khoảng trống bên trái văn bản
  - **text-shadow**: mau_sắc tọa_độ_x(px) tọa_đọ_y(px) kíck_thước_bóng_mờ(px) đổ bóng văn bản
  - **text-transform**: capitalize(hoa chữ đầu)/uppercase(hoa hết)/lomercase(thường hết)/normal(trở về)
+
 ##6. Các thuộc tính trang trí chữ viết
+
  - **font-family**: Arial, Tahoma, sans-serif; tên font chữ
  - **font-style**: italic(in nghiêng)/oblique(in nghiêng)/normal(quay lại bt) chữ in nghiêng
  - **font-weight**: 100/20..(cao nhất là 900)/normal(bt)tùy trỉnh độ đậm nhạt
  - **Color**: tên màu chữ
+
 ##7. Phần tử Block và Inline
+
  - **Block**(khối) là phần tử HTML khi tạo ra nó sở hữu một hàng riêng biệt.vd `<div>,<h1>,<p>,<ul>...`
  - **Inline**(nội dung) là cá phần tử HTML khi tọa ra có thể đứng trên cùng một hàng.vd `<stong>,<span>,<a>...`
 ##8. Thẻ **div** và vai trò khi tạo bố cục
  - Thẻ `<div>` là một thẻ block dùng để gọp nhiều nhóm phần tử lại thành một khu vực.Thườngđược dùng đẻ tạo bố cục hoặc tạ một khu vực nào đó trong website 
  - ví dụ: `<div id="..">....</div>`
+
 ##9. Kỹ thuật Box Model cơ bản
+
  - Box model là kỹ thuật để tinh chỉnh lại các phần tử box(block)
  - Box model gồm 4 thành phần chính:
    . **Margin**: Lề bên ngoài box
@@ -108,12 +116,16 @@
    **borde**: độ-dày loại_viền màu_viền;
    *các loại viền*: double/solid/dotted/groove/inset/outset...
   **padding**:(giống margin)
+
 ##10. Tùy chỉnh kích thước box (block)
+
  - **max-height**: cao_tối_đa(px);
  - **min-height**: thấp_tối_đa(px);
  - **max-width**: rộng_tối_đa;
  - **min-width**: hẹp_tối_đa;
+
 ##11. Tính toán lại kích thước của box với box-sizing.
+
  - khi dùng thì tổng chu vi của **box** không đổi
  - **box-sizing**: content-box(mặc định);/border-box;/padding-box;
  - Chọn tất cả các phần tử để căn chỉnh.
@@ -124,7 +136,9 @@
       -webkit-box-sizing: borber-box;(để cho mấy trình duyệt cũ vẫn đọc được)
    }
 ```
+
 ##12. Thêm nền cho block
+
  - Màu nền
    `backgruad-clolor: mã_màu(có dấu **#** ở trước)/tên_màu;`
  - Ảnh nền
