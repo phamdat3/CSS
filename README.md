@@ -5,20 +5,20 @@
   Cập nhập lần cuối: *12/2/2017*
 
 # Mục lục 
-
-<a href="#1">1. CSS là gì?</a>
-<a href="#2">2. Nhúng css vào website.</a>
-<a href="#3">3. Vùng chọn và các kiểu vùng chọn.</a>
-<a href="#4">4. Các đơn vị đo lường</a>
-<a href="#5">5. Các thuộc tính trang trí văn bản</a>
-<a href="#6">6. Các thuộc tính trang trí chữ viết</a>
-<a href="#7">7. Phần tử Block và Inline</a>
-<a href="#8">8. Thẻ div và vai trò khi tạo bố cục</a>
-<a href="#9">9. Kỹ thuật Box Model cơ bản</a>
-<a href="#10">10. Tùy chỉnh kích thước box (block)</a>
-<a href="#11">11. Tính toán lại kích thước của box với box-sizing.</a>
-<a href="#12">12. Thêm nền cho block</a>
-
+ 
+<a href="#1">1. CSS là gì?</a> 
+<a href="#2">2. Nhúng css vào website.</a> 
+<a href="#3">3. Vùng chọn và các kiểu vùng chọn.</a> 
+<a href="#4">4. Các đơn vị đo lường</a> 
+<a href="#5">5. Các thuộc tính trang trí văn bản</a> 
+<a href="#6">6. Các thuộc tính trang trí chữ viết</a> 
+<a href="#7">7. Phần tử Block và Inline</a> 
+<a href="#8">8. Thẻ div và vai trò khi tạo bố cục</a> 
+<a href="#9">9. Kỹ thuật Box Model cơ bản</a> 
+<a href="#10">10. Tùy chỉnh kích thước box (block)</a> 
+<a href="#11">11. Tính toán lại kích thước của box với box-sizing.</a> 
+<a href="#12">12. Thêm nền cho block</a> 
+ 
 # Nội dung.
 ---
 <id="1>
