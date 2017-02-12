@@ -57,7 +57,9 @@
       Trên thẻ `<head>` có thẻ
         `<link rel="stylesheet" href="tên_file.css"/>`
       Tạo 1 tệp tin có tên là `tên_file.css`. nếu khác hu mục thì phải viết cả tên thư mục cách nhau bởi dấu `/`
+
 ##3. Vùng chọn và các kiểu vùng chọn.
+
   - Vùng chọn là một khu vục trong website được chỉ định áp dụng một đoạn CSS  nào đó.
   - Có 5 kiểu vùng chọn
     - Chọn theo tên thẻ HTML
@@ -71,13 +73,21 @@
          - **chú ý**: bên CSS mỗi phần phải cách ra để phân biệt phần tử mẹ con
     + Chọn thứ cấp liền nhau
         - bên HTML viết những đoạn danh sách lồng nhau, bên CSS: `#id_me ul ul > p{...}` sẽ chọn dững phần tử ngay sau phần phần nhỏ thứ 2, có dấu `>` nên sẽ không chọn những phần nhỏ thứ 3,4...
+
 ##4. Các đơn vị đo lường
+
   - Đơn vị tuyệt đối
+
      **px**
+
      **pt**
+
   - Đơn vị tương đối: Dùng trong các phần tử con
+
      **%** :Dùng trong các phần tử con
+
      **em** :Dùng trong các phần tử con
+
      **rem** :Dùng trong toàn bộ, mà nó căn cứ vào phần tử gốc html.
 
 ##5. Các thuộc tính trang trí văn bản
