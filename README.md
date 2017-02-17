@@ -6,57 +6,57 @@
 
 # Mục lục 
  
-<a href="#1">1. CSS là gì?</a>  
+[1. CSS là gì?](#1)
 
-<a href="#2">2. Nhúng css vào website.</a> 
+[2. Nhúng css vào website.](#2)
 
-<a href="#3">3. Vùng chọn và các kiểu vùng chọn.</a> 
+[3. Vùng chọn và các kiểu vùng chọn.](#3) 
 
-<a href="#4">4. Các đơn vị đo lường</a> 
+[4. Các đơn vị đo lường](#4) 
 
-<a href="#5">5. Các thuộc tính trang trí văn bản</a> 
+[5. Các thuộc tính trang trí văn bản](#5) 
 
-<a href="#6">6. Các thuộc tính trang trí chữ viết</a> 
+[6. Các thuộc tính trang trí chữ viết](#6)
 
-<a href="#7">7. Phần tử Block và Inline</a> 
+[7. Phần tử Block và Inline](#7) 
 
-<a href="#8">8. Thẻ div và vai trò khi tạo bố cục</a> 
+[8. Thẻ div và vai trò khi tạo bố cục](#8) 
 
-<a href="#9">9. Kỹ thuật Box Model cơ bản</a> 
+[9. Kỹ thuật Box Model cơ bản](#9)
 
-<a href="#10">10. Tùy chỉnh kích thước box (block)</a> 
+[10. Tùy chỉnh kích thước box (block)](#10) 
 
-<a href="#11">11. Tính toán lại kích thước của box với box-sizing.</a> 
+[11. Tính toán lại kích thước của box với box-sizing.](#11)
 
-<a href="#12">12. Thêm nền cho block</a> 
+[12. Thêm nền cho block](#12)
 
-<a href="#13">13. Float và Clear Float</a>
+[13. Float và Clear Float](#13)
 
-<a href="#14">14. Reset CSS là gì</a>
+[14. Reset CSS là gì](#14)
 
-<a href="#15">15. Trang trí danh sách với list-style</a>
+[15. Trang trí danh sách với list-style](#15)
 
-<a href="#16">16. Thuộc tính display</a>
+[16. Thuộc tính display](#16)
 
-<a href="#17">17. Thuộc tính position</a>
+[17. Thuộc tính position](#17)
 
-<a href="#18">18. Pseudo-classes cơ bản</a>
+[18. Pseudo-classes cơ bản](#18)
 
-<a href="#19">19. Cách làm menu ngang dropdown cơ bản</a>
+[19. Cách làm menu ngang dropdown cơ bản](#19)
 
-<a href="#20">20. Làm menu dọc có dropdown đơn giản</a>
+[20. Làm menu dọc có dropdown đơn giản](#20)
 
-<a href="#21">21. Thiết kế giao diện đơn giản</a>
+[21. Thiết kế giao diện đơn giản](#21)
 
-<a href="#22">22. CSS Framework là gì và cách sử dụng</a>
+[22. CSS Framework là gì và cách sử dụng](#22)
 
-<a href="#23">23. Tạo chuyển động với Transition</a>
+[23. Tạo chuyển động với Transition](#23)
 
-<a href="#24">24. Thay đổi hình dạng đối tượng với Transform</a>
+[24. Thay đổi hình dạng đối tượng với Transform](#24)
 
 # Nội dung.
 ---
-<id="1>
+<a name="24"></a>
 ##1. CSS là gì?.
   - là chữ viết tắt của **Cascading Style Sheets**
   - là ngôn ngữ định dạng cho các ngôn ngữ đánh dấu siêu vă bản như HTML, XML, SVG...
@@ -74,7 +74,7 @@
  }
  ``` 
 
-<id="2>
+<a name="24"></a>
 ##2. Nhúng css vào website.
   - Theo kiểu **Inline style**: Chèn trực tiếp vào HTML luôn.
     + Cách chèn
@@ -92,7 +92,7 @@
         `<link rel="stylesheet" href="tên_file.css"/>`
       Tạo 1 tệp tin có tên là `tên_file.css`. nếu khác hu mục thì phải viết cả tên thư mục cách nhau bởi dấu `/`
 
-<id="3>
+<a name="24"></a>
 ##3. Vùng chọn và các kiểu vùng chọn.
 
   - Vùng chọn là một khu vục trong website được chỉ định áp dụng một đoạn CSS  nào đó.
@@ -114,7 +114,7 @@
 <img src="http://imageshack.com/a/img922/2368/ojLfgT.png">
         - bên HTML viết những đoạn danh sách lồng nhau, bên CSS: `#id_me ul ul > p{...}` sẽ chọn dững phần tử ngay sau phần phần nhỏ thứ 2, có dấu `>` nên sẽ không chọn những phần nhỏ thứ 3,4...
 
-<id="4>
+<a name="24"></a>
 ##4. Các đơn vị đo lường
 
   - Đơn vị tuyệt đối
@@ -132,7 +132,7 @@
 
      **rem** :Dùng trong toàn bộ, mà nó căn cứ vào phần tử gốc html.
 
-<id="5>
+<a name="24"></a>
 ##5. Các thuộc tính trang trí văn bản
 
  - **text-align**: Căn lề văn bản(left-trái/right-phải/center-giữa/justify-đều 2 bên) 
@@ -145,7 +145,7 @@
  - **text-transform**: capitalize(hoa chữ đầu)/uppercase(hoa hết)/lomercase(thường hết)/normal(trở về)
 <img src="http://imageshack.com/a/img923/6011/cbndlw.png">
 
-<id="6>
+<a name="24"></a>
 ##6. Các thuộc tính trang trí chữ viết
 
  - **font-family**: Arial, Tahoma, sans-serif; tên font chữ
@@ -153,21 +153,21 @@
  - **font-weight**: 100/20..(cao nhất là 900)/normal(bt)tùy trỉnh độ đậm nhạt
  - **Color**: tên màu chữ
 
-<id="7>
+<a name="24"></a>
 ##7. Phần tử Block và Inline
 
  - **Block**(khối) là phần tử HTML khi tạo ra nó sở hữu một hàng riêng biệt.vd `<div>,<h1>,<p>,<ul>...`
  - **Inline**(nội dung) là cá phần tử HTML khi tọa ra có thể đứng trên cùng một hàng.vd `<stong>,<span>,<a>...`
 <img src="http://imageshack.com/a/img924/825/LtC0ve.png">
 
-<id="8>
+<a name="24"></a>
 ##8. Thẻ **div** và vai trò khi tạo bố cục
 
  - Thẻ `<div>` là một thẻ block dùng để gọp nhiều nhóm phần tử lại thành một khu vực.Thườngđược dùng đẻ tạo bố cục hoặc tạ một khu vực nào đó trong website 
  - ví dụ:
  <img src="http://imageshack.com/a/img924/8703/Ch3UNg.png">
 
-<id="9>
+<a name="24"></a>
 ##9. Kỹ thuật Box Model cơ bản
 
  - Box model là kỹ thuật để tinh chỉnh lại các phần tử box(block)
@@ -184,7 +184,7 @@
 <img src="http://imageshack.com/a/img924/6531/GDjy6c.png">
 <img src="http://imageshack.com/a/img923/3143/a5YDDs.png">
 
-<id="10>
+<a name="24"></a>
 ##10. Tùy chỉnh kích thước box (block)
 
  - **max-height**: cao_tối_đa(px);
@@ -192,7 +192,7 @@
  - **max-width**: rộng_tối_đa;
  - **min-width**: hẹp_tối_đa;
 
-<id="11>
+<a name="24"></a>
 ##11. Tính toán lại kích thước của box với box-sizing.
 
  - khi dùng thì tổng chu vi của **box** không đổi
@@ -206,7 +206,7 @@
    }
 ```
 
-<id="12>
+<a name="24"></a>
 ##12. Thêm nền cho block
 
  - Màu nền
@@ -220,7 +220,7 @@
   ```
 <img src="http://imageshack.com/a/img923/9808/mJFAwg.png">
 
-<id="13>
+<a name="24"></a>
 13. Float và Clear Float
  - clear float là tạo neo để cho các phàn tử con không bị tràn ra khỏi phần tử mẹ.
  - có 2 cách tạo clear float:
@@ -228,45 +228,45 @@
   + tại thẻ `<div>` me ta cho thuộc tính overfloat: auto;
  - **chú ý**: tại thẻ mẹ và những thẻ con chúng ta phải tùy chỉnh chiều rộng sao cho phù hợn thì những nọi dung của các thẻ `<div>` con sẽ tạo thành những cột riêng biệt nằm cạnh nhau trên cùng 1 hàng.
 
-<id="14>
+<a name="24"></a>
 14. Reset CSS là gì
  - reset trên mạng, có 2 cách:
   + **normalize.css.** download về và tạo 1 file css sau đó chèn vào html(để lên trước để cho nó chạ trước)
   + **meyerweb css tools.** copy và làm như cách trên.
 
-<id="15>
+<a name="24"></a>
 15. Trang trí danh sách với list-style
  - list-style-type: disc(dấu chấm tron);/clrele(dường tròn);/aquare(vuông);decimai(so);/nome(k có gì);
  - list-style-position: inside;/outside;
  - list-style-image: url('linh anh');
 
-<id="16>
+<a name="24"></a>
 16. Thuộc tính display
  - display: inline(2 thẻ hiển thị trên 1 hàng); block(bt); list-item(chuyển thẻ `<div>` giống thẻ ``<li>);/table(tạo bảng với nhiều thẻ <div>);``
 
-<id="17>
+<a name="24"></a>
 17. Thuộc tính position
  - position: relative(không thay đổi);
              top: (px);/bottom: (px); chạy xuống lên
              left: (px);/right: (px); chạy phải trái
 
-<id="18>
+<a name="24"></a>
 18. Pseudo-classes cơ bản
 
-<id="19>
+<a name="24"></a>
 19. Cách làm menu ngang dropdown cơ bản
 
-<id="20>
+<a name="24"></a>
 20. Làm menu dọc có dropdown đơn giản
 
-<id="21>
+<a name="24"></a>
 21. Thiết kế giao diện đơn giản
 
-<id="22>
+<a name="24"></a>
 22. CSS Framework là gì và cách sử dụng
 
-<id="23>
+<a name="24"></a>
 23. Tạo chuyển động với Transition
 
-<id="24>
+<a name="24"></a>
 24. Thay đổi hình dạng đối tượng với Transform
