@@ -221,7 +221,7 @@
 <img src="http://imageshack.com/a/img923/9808/mJFAwg.png">
 
 <a name="13"></a>
-13. Float và Clear Float
+##13. Float và Clear Float
  - clear float là tạo neo để cho các phàn tử con không bị tràn ra khỏi phần tử mẹ.
  - có 2 cách tạo clear float:
   + bên HTML tạo 1 thẻ `<div>` trống ở cuối cùng. thuộc tính clear: both; ơt thẻ `<div>` trống này sẽ như là cái neo hay cái dới hạn mà k cho các phần tử con chạy ra ngoài đk.
@@ -229,44 +229,77 @@
  - **chú ý**: tại thẻ mẹ và những thẻ con chúng ta phải tùy chỉnh chiều rộng sao cho phù hợn thì những nọi dung của các thẻ `<div>` con sẽ tạo thành những cột riêng biệt nằm cạnh nhau trên cùng 1 hàng.
 
 <a name="14"></a>
-14. Reset CSS là gì
+##14. Reset CSS là gì
  - reset trên mạng, có 2 cách:
   + **normalize.css.** download về và tạo 1 file css sau đó chèn vào html(để lên trước để cho nó chạ trước)
   + **meyerweb css tools.** copy và làm như cách trên.
 
 <a name="15"></a>
-15. Trang trí danh sách với list-style
+##15. Trang trí danh sách với list-style
  - list-style-type: disc(dấu chấm tron);/clrele(dường tròn);/aquare(vuông);decimai(so);/nome(k có gì);
  - list-style-position: inside;/outside;
  - list-style-image: url('linh anh');
 
 <a name="16"></a>
-16. Thuộc tính display
- - display: inline(2 thẻ hiển thị trên 1 hàng); block(bt); list-item(chuyển thẻ `<div>` giống thẻ ``<li>);/table(tạo bảng với nhiều thẻ <div>);``
-
+##16. Thuộc tính display
+ - **Block**: Các phần tử hiển thị trên mỗi hàng riêng biết. Như thẻ <div>, <li>, <h1>,....
+ - **Inline**: Các phần tử hiển thi trên cùng 1 hàng.Như các thẻ <span>, <strong>, <a>,....
+ - Chuyển phần tử về cùng một hàng nhờ thẻ `display: inline``
+ <img src="http://imageshack.com/a/img922/4051/DY1sGf.png">
+ - Chuyển phần thử về cùng 1 hàng nhưng vẫn mang các đặc tính của block như có thể tùy chỉnh kích thước hoặc màu nền.
+ - Chuyển phần tử về hàng riêng biệt.
+ <img src="http://imageshack.com/a/img922/358/XI4YFr.png"
+ - Chuyển phần tử giống như danh mục (như dùng thử `<div>`)
+ 
 <a name="17"></a>
-17. Thuộc tính position
+##17. Thuộc tính position
  - position: relative(không thay đổi);
              top: (px);/bottom: (px); chạy xuống lên
              left: (px);/right: (px); chạy phải trái
 
 <a name="18"></a>
-18. Pseudo-classes cơ bản
-
+##18. Pseudo-classes cơ bản
+  Một số Pseudo Class thông dụng
+ Cho 1 thẻ:
+ <img src="http://imageshack.com/a/img922/5417/MsUIWz.png">
+ - **hover**: Chọn trạng thái khi rê chuột vào một phần tử.
+ <img src="http://imageshack.com/a/img922/235/F9Mmfb.png">
+ - **visited**: Được sử dụng cho liên kết, chọn liên kết khi đã được truy cập (dựa vào History trên trình duyệt).
+ - **link**: Được sử dụng cho liên kết, chọn liên kết khi chưa nhấp vào
+ - **active**: Chọn phần tử khi họ chọn/nhấp vào.
+ <img src="http://imageshack.com/a/img924/6383/EFzXoT.png">
+ 
 <a name="19"></a>
-19. Cách làm menu ngang dropdown cơ bản
+##19. Cách làm menu ngang dropdown cơ bản
+ - Trước tiên phải tạo một danh sách bằng thẻ `<li>`, chú ý danh sách được tạo ra phải nắm trong một thẻ `<div>`.
+ - Tiếp theo xóa dấu chấm ở đầu dòng mõi danh mục, thêm màu nền cho thẻ `<div>` hay nói cách khác là vùng chọn và căn chúng ra giữa.
+ <img src="http://imageshack.com/a/img924/5277/bEualf.png">
+ - Tiếp theo dùng thuộc tính `display` để cho các thu mục nằm trên cùng một hàng và căn chỉnh chiều cao và chiều rộng của vùng chọn và để cho mỗi thư mục các đều nhau thì cho thuộc tính `line-height` bằng với `height`.
+ <img src="http://imageshack.com/a/img923/9163/8602Y2.png">
+ - Tiếp theo xóa gạch chân ở dưới mỗi mục và chọn màu chữ cho các mục.
+ <img src="http://imageshack.com/a/img922/7126/WnS0al.png">
+ - Để khi rê chuột tới thư muc đó để dễ nhận biết ta cho màu nền của mục rê tới có màu nền khác và màu chữ khác đi
+ <img src="http://imageshack.com/a/img924/5569/STaSun.png">
+ - Khi có thêm thư mục con ở một mục nào đó:
+ + Tạo thư mục con cho mục tương ứng. Chú ý là tạo thêm thư mục con ở thẻ `<li>` thì phải tạo thêm 1 thẻ `<ul>` nữa.
+ <img src="http://imageshack.com/a/img923/6007/JNwhqZ.png">
+ + Vì các thu mục con nằm trên thư mục mẹ và làm vùng chọn bị lớn ra nên ta ản vùng chọn con đi.
+ <img src="http://imageshack.com/a/img924/4463/oFXt2S.png">
+ + Ẩn rồi thì phải hiện thư mục con lên. Khi rê chuột tới thì thư muc con hiện lên.
+ <img src="http://imageshack.com/a/img923/2680/AjahBX.png">
 
 <a name="20"></a>
-20. Làm menu dọc có dropdown đơn giản
+##20. Làm menu dọc có dropdown đơn giản
+
 
 <a name="21"></a>
-21. Thiết kế giao diện đơn giản
+##21. Thiết kế giao diện đơn giản
 
 <a name="22"></a>
-22. CSS Framework là gì và cách sử dụng
+##22. CSS Framework là gì và cách sử dụng
 
 <a name="23"></a>
-23. Tạo chuyển động với Transition
+##23. Tạo chuyển động với Transition
 
 <a name="24"></a>
-24. Thay đổi hình dạng đối tượng với Transform
+##24. Thay đổi hình dạng đối tượng với Transform
