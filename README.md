@@ -242,13 +242,13 @@
 
 <a name="16"></a>
 ##16. Thuộc tính display
- - **Block**: Các phần tử hiển thị trên mỗi hàng riêng biết. Như thẻ <div>, <li>, <h1>,....
- - **Inline**: Các phần tử hiển thi trên cùng 1 hàng.Như các thẻ <span>, <strong>, <a>,....
- - Chuyển phần tử về cùng một hàng nhờ thẻ `display: inline``
+ - **Block**: Các phần tử hiển thị trên mỗi hàng riêng biết. Như thẻ `<div>`, `<li>`, `<h1>`,....
+ - **Inline**: Các phần tử hiển thi trên cùng 1 hàng.Như các thẻ `<span>`, `<strong>`, `<a>`,....
+ - Chuyển phần tử về cùng một hàng nhờ thẻ `display: inline`
  <img src="http://imageshack.com/a/img922/4051/DY1sGf.png">
  - Chuyển phần thử về cùng 1 hàng nhưng vẫn mang các đặc tính của block như có thể tùy chỉnh kích thước hoặc màu nền.
  - Chuyển phần tử về hàng riêng biệt.
- <img src="http://imageshack.com/a/img922/358/XI4YFr.png"
+ <img src="http://imageshack.com/a/img922/358/XI4YFr.png">
  - Chuyển phần tử giống như danh mục (như dùng thử `<div>`)
  
 <a name="17"></a>
@@ -281,11 +281,11 @@
  - Để khi rê chuột tới thư muc đó để dễ nhận biết ta cho màu nền của mục rê tới có màu nền khác và màu chữ khác đi
  <img src="http://imageshack.com/a/img924/5569/STaSun.png">
  - Khi có thêm thư mục con ở một mục nào đó:
- + Tạo thư mục con cho mục tương ứng. Chú ý là tạo thêm thư mục con ở thẻ `<li>` thì phải tạo thêm 1 thẻ `<ul>` nữa.
+   + Tạo thư mục con cho mục tương ứng. Chú ý là tạo thêm thư mục con ở thẻ `<li>` thì phải tạo thêm 1 thẻ `<ul>` nữa.
  <img src="http://imageshack.com/a/img923/6007/JNwhqZ.png">
- + Vì các thu mục con nằm trên thư mục mẹ và làm vùng chọn bị lớn ra nên ta ản vùng chọn con đi.
+   + Vì các thu mục con nằm trên thư mục mẹ và làm vùng chọn bị lớn ra nên ta ản vùng chọn con đi.
  <img src="http://imageshack.com/a/img924/4463/oFXt2S.png">
- + Ẩn rồi thì phải hiện thư mục con lên. Khi rê chuột tới thì thư muc con hiện lên.
+   + Ẩn rồi thì phải hiện thư mục con lên. Khi rê chuột tới thì thư muc con hiện lên.
  <img src="http://imageshack.com/a/img923/2680/AjahBX.png">
 
 <a name="20"></a>
