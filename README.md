@@ -290,6 +290,13 @@
 
 <a name="20"></a>
 ##20. Làm menu dọc có dropdown đơn giản
+ - Tương tự làm menu ngang:
+ <img src="http://imageshack.com/a/img922/9607/wKEykw.png">
+ - Khác những phàn sau:
+   + Không cho các phần tử cùng nằm trên 1 hàng nên phải tạo cho chúng một bảng riêng để phân cách chúng ra. Dùng thuộc tính `border-bottom` để tạo bảng, `padding: o 1em` để cho chũng lùi đâu dòng 1em và `display: block` để tạo vùng riêng cho chúng.
+   <img src="http://imageshack.com/a/img924/8592/qkXxiT.png">
+   + Khi tạo thê thư mục con thì chũng ta dùng thêm các thuộc tính để căn chỉnh: `left` đê đẩy cho các mục con ra ngoài không bị chồng lên các mục sau( chú ý tới kích thước) `top:0` để cho thư mục con nắm ngnag hàng với thu mục mẹ sang.
+   <img src="http://imageshack.com/a/img922/2746/MWNx3a.png">
 
 
 <a name="21"></a>
