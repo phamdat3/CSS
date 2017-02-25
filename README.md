@@ -304,9 +304,37 @@
 
 <a name="22"></a>
 ##22. CSS Framework là gì và cách sử dụng
+ - **CSS Framework là bộ mã nguồn CSS đã được viết sẵn để chúng ta có thể sử dụng trong bất kỳ dự án nào.
+ - **Chức năng** là có sẵn các định dạng trang trí cho phần tử Website như tạo menu, nút bấm, chia cột.
+ - **Mục đích** là hỗ trợ thiết kế website nhanh hơn cứ không phải viết CSS từ đầu.
+ - Có hai lại CSS Framework cơ bản nhất:
+   + **Grib Framework**: Bộ CSS Framework chuyên cho mục đích chia cột website.
+   + **UI Framework**: Bộ CSS hoàn chỉnh bao gồm các thành phần cho website như menu, nút bấm, from,..
+ - Những bộ CSS Framework phổ biến nhất:
+   + **Bootstrap**: Phổ biết nhất, vì nó rất đầy đủ nhưng phúc tạp dành cho những người thành thục rồi.
+    <img src="getbootstrap.com">
+   + **960 Grid system**: Khá đơn giản giễ hiểu dành cho những người mới học CSS, dùng đê chia cột.
+   <img src="960.gs">
+   + **Purecss**: Chia cột, cấu trúc rất dễ hiểu.
+   <img src="purecss.io">
+   + **Golden grid system**: Chia cột và đơn giản.
+   <img src="goldengridsystem.com">
+   + **Foundation**: Cũng giễ sử dụng. Nên sử dụng khi đã sử dụng 960 Grid system và Purecss rồi.
+   <img src="foundation.com">
+ 
+ <h3>Hướng dẫn sử dụng Framework với bộ Purecss<h3>
+   -Bước 1:
+     + Copy đoạn`<link.. >` vào phần `<head>`
+     + Copy tiếp `<nate name="viewprot".....>` vào phần `<head>`
+   - Bước 2:
+     + Copy nững gì cần hiển thị vào phần `<body>` 
+      <img src="đoạn mã chia cột ở phần Grids">
+      <img src="đoạn mã Forms"....
 
 <a name="23"></a>
 ##23. Tạo chuyển động với Transition
+ - Là thiết lập kiểu chuyển động, thời gian chuyển động cho một phần tử nào đó.
+ <img src="23.1">
 
 <a name="24"></a>
 ##24. Thay đổi hình dạng đối tượng với Transform
