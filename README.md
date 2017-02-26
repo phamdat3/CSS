@@ -322,20 +322,28 @@
    + [Foundation](http://foundation.zurb.com/develop/getting-started.html): Cũng dễ sử dụng. Nên sử dụng khi đã sử dụng 960 Grid system và Purecss rồi.
    <img src="http://imageshack.com/a/img924/7735/1hImvN.png">
  
-<h3>Hướng dẫn sử dụng Framework với bộ Purecss<h3>
+<h3>Hướng dẫn sử dụng Framework với bộ Purecss</h3>
 
- -Bước 1:
-   + Copy đoạn`<link.. >` vào phần `<head>`
-   + Copy tiếp `<nate name="viewprot".....>` vào phần `<head>`
- - Bước 2:
-   + Copy nững gì cần hiển thị vào phần `<body>` 
-    <img src="đoạn mã chia cột ở phần Grids">
-    <img src="đoạn mã Forms"....
+ - Bước 1: Tải bộ framework về máy, nó sẽ bao gồm các file CSS và Javascript (nếu có) và một tài liệu HTML mẫu.
+ - Bước 2:  Sau đó bạn tiến hành nhúng các file CSS của framework đó vào tài liệu bạn cần thiết kế với thẻ `<link>`.
+ - Bước 3: Cuối cùng là thêm class của framework vào các phần tử bạn muốn sử dụng.
+ - *Lời kết*: Mỗi Framework có một vấn đề khác nhau nên khó có thể làm ví dụ cụ thể được. Vì thế nấu muốn sử dụng hay bắt đầu từ **960Grid** bắng cách tải về máy va chia cột vói các class như hướng dẫn, nấu bạn chưa biết class của nó thì mở tài liệu HTML lên sẽ thấy.
 
 <a name="23"></a>
 ##23. Tạo chuyển động với Transition
- - Là thiết lập kiểu chuyển động, thời gian chuyển động cho một phần tử nào đó.
- <img src="23.1">
+ - **Transition** là một trong các kỹ thuật phổ biến ở các website hiện đại là có các hiệu ứng chuyển động cho từng đối tượng rất đẹp mắt được làm hoàn toàn bằng CSS3.
+ - Cấu trúc khai báo lệnh: 
+   transition: [thuộc tính chuyển động] [thời gian chuyển động] [thời gian delay] [kiểu chuyển động]; 
+   + Thuộc tính chuyển động: Bắt buộc có, bạn có thể tham khảo những thuộc tính chuyển động [tại đây](https://www.w3.org/TR/css3-transitions/#animatable-properties). Khi tạo hiệu ứng chuyển động là bạn phải đặt thuộc tính `transition` vào phần tử muốn làm chuyển động.
+   + Kiểu chuyển động: Có thể có hoặc không, các kiểu chuyển động tham khảo [tại đây](https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function).
+ - Chú ý: Transition là thuộc tính CSS3 nên bạn cần nên khai báo thêm hai thuộc tính tương tự kèm hai tiền tố -moz- và -webkit- để nó hoạt động tốt trên mọi trình duyệt.
+ - Ví dụ:
+   <img src="http://imageshack.com/a/img922/396/Nw4KYI.png">
+   + Khi rê chuột vào:
+   <img src="http://imageshack.com/a/img922/9900/foKve6.png">
+   <img src="http://imageshack.com/a/img923/9825/PXjJbi.png">
+   + Khi bỏ chuột ra:
+   <img src="http://imageshack.com/a/img922/5417/lvpn6p.png">
 
 <a name="24"></a>
 ##24. Thay đổi hình dạng đối tượng với Transform
