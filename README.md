@@ -348,27 +348,32 @@
 <a name="24"></a>
 ##24. Thay đổi hình dạng đối tượng với Transform
  - Ngoài thuộc tính `transition` của CSS3 giúp bạn tạo ra các hiệu ứng chuyển động của các phần tử trong website, thì nó còn một thuộc tính khác được sử dụng kèm với `transition` rất thường xuyên đó là thuộc tính `transform` có chức năng đổi hình dạng các phần tử block trong website.
+
 ###Tính năng xoay: rotate();
  - <img src="http://imageshack.com/a/img924/4149/gBMkxR.png">
  - Khi rê chuột vào hình trên:
   <img src="http://imageshack.com/a/img922/3888/OFQmtE.png">
  - Khi rê chuột vào hình dưới: Nó xẽ xoay liên tục.
   <img src="http://imageshack.com/a/img924/413/t7nmZt.png">
+
 ###Tính năng co giãn: scale();
  - <img src="http://imageshack.com/a/img923/4791/4Nh4dc.png">
  - Khi rê chuột vào hình trên:
  <img src="http://imageshack.com/a/img923/6267/ObYmVa.png">
  - Khi rê chuột vào hình dưới: nó xẽ to dần ra.
  <img src="http://imageshack.com/a/img924/1006/ecCbHU.png">
+
 ###Tính năng kéo nghiêng: skew();
  - <img src="http://imageshack.com/a/img924/9295/xlNv9Y.png">
- - Khi rê chuột vào hình trên:
+ - Khi rê chuột vào hình trên.
  <img src="http://imageshack.com/a/img923/1754/Wb3VTY.png">
  - Khi rê chuột vào hình dưới: nó xẽ nghiêng từ từ.
  <img src="http://imageshack.com/a/img922/4923/pLxfWd.png">
-###Tính năng tùy chỉnh tâm hịnh dạng: transform-origin;
+
+ ###Tính năng tùy chỉnh tâm hịnh dạng: transform-origin
  - Loại rotale:
  <img src="http://imageshack.com/a/img922/6188/NrfOKR.png">
+   + Chạy ra khỏi màn hình luôn.
  <img src="http://imageshack.com/a/img921/7945/IuZNGM.png">
  - Loại scale:
  <img src="http://imageshack.com/a/img923/2372/yNeEsL.png">
@@ -376,5 +381,5 @@
  - Loại skew:
  <img src="http://imageshack.com/a/img922/6243/Hu9EXr.png">
  <img src="http://imageshack.com/a/img921/9613/zbVHMQ.png">
- 
+
 
